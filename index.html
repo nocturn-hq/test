@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ephy Mawira — Software Developer</title>
+<meta name="description" content="Ephy Mawira — full-stack developer building web platforms, bots, and automation tools.">
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="noise-overlay" aria-hidden="true"></div>
+
+<button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+  <span></span><span></span><span></span>
+</button>
+
+<aside class="sidebar" id="sidebar">
+  <div class="sidebar-top">
+    <a href="#top" class="mark">
+      <span class="mark-glyph" aria-hidden="true">
+        <svg viewBox="0 0 40 40" fill="none">
+          <path d="M20 3 L34 11 V29 L20 37 L6 29 V11 Z" stroke="currentColor" stroke-width="1.4"/>
+          <path d="M20 3 V37 M6 11 L34 29 M34 11 L6 29" stroke="currentColor" stroke-width="0.6" opacity="0.5"/>
+        </svg>
+      </span>
+      <span class="mark-text">EM</span>
+    </a>
+  </div>
+
+  <nav class="sidebar-nav" aria-label="Primary">
+    <span class="nav-indicator" id="navIndicator" aria-hidden="true"></span>
+    <a href="#about" class="nav-link" data-section="about">About</a>
+    <a href="#skills" class="nav-link" data-section="skills">Skills</a>
+    <a href="#work" class="nav-link" data-section="work">Work</a>
+    <a href="#contact" class="nav-link" data-section="contact">Contact</a>
+  </nav>
+
+  <div class="sidebar-bottom">
+    <div class="socials">
+      <a href="https://github.com/" target="_blank" rel="noopener" aria-label="GitHub">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5A11.5 11.5 0 0 0 .5 12c0 5.1 3.3 9.4 7.9 10.9.6.1.8-.2.8-.6v-2.2c-3.2.7-3.9-1.4-3.9-1.4-.5-1.4-1.3-1.7-1.3-1.7-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1.1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.7-1.6-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.4-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.3 1.2A11.4 11.4 0 0 1 12 6.2c1 0 2 .1 3 .4 2.3-1.5 3.3-1.2 3.3-1.2.6 1.6.2 2.8.1 3.1.8.8 1.2 1.8 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.4.4.8 1.1.8 2.2v3.3c0 .4.2.7.8.6A11.5 11.5 0 0 0 23.5 12 11.5 11.5 0 0 0 12 .5z"/></svg>
+      </a>
+      <a href="https://linkedin.com/" target="_blank" rel="noopener" aria-label="LinkedIn">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM.5 8.98h4v14.02h-4V8.98zm7.5 0h3.83v1.92h.05c.53-1 1.85-2.06 3.8-2.06 4.07 0 4.82 2.68 4.82 6.16v8h-4v-7.1c0-1.7-.03-3.87-2.36-3.87-2.37 0-2.73 1.85-2.73 3.75v7.22h-4V8.98z"/></svg>
+      </a>
+      <a href="mailto:hello@ephymawira.dev" aria-label="Email">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M2 5h20v14H2z"/><path d="M2 6l10 8 10-8"/></svg>
+      </a>
+    </div>
+    <span class="sidebar-year">© 2026</span>
+  </div>
+</aside>
+
+<main id="top">
+
+  <section class="hero" id="hero">
+    <div class="hero-glow" aria-hidden="true"></div>
+    <div class="hero-inner">
+      <p class="hero-eyebrow reveal-item">Software Developer</p>
+      <h1 class="hero-name">
+        <span class="line reveal-item">Ephy</span>
+        <span class="line reveal-item">Mawira</span>
+      </h1>
+      <div class="hero-rule reveal-item" aria-hidden="true"><span></span></div>
+      <p class="hero-pitch reveal-item">
+        I design and build web platforms, bots, and automation tools end to end —
+        from the interface down to the database. Currently building under the
+        personal brand <strong>Shadow&nbsp;Monarch</strong>.
+      </p>
+      <div class="hero-actions reveal-item">
+        <a href="#work" class="btn btn-primary">View my work</a>
+        <a href="#contact" class="btn btn-ghost">Get in touch</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <div class="section-head">
+      <span class="section-index">01</span>
+      <h2>About</h2>
+    </div>
+    <div class="section-body about-body">
+      <p>
+        I'm a self-directed full-stack developer who learns by shipping —
+        every project below started as "I need this to exist" and ended as a
+        working product. I care most about the parts of an app people don't
+        notice when they're done right: fast load times, sessions that don't
+        drop, forms that don't lose your data.
+      </p>
+      <p>
+        My work spans competitive gaming platforms, hospitality sites,
+        WhatsApp automation, and internal tooling — different domains, same
+        approach: understand the real workflow first, then build the
+        smallest system that handles it properly.
+      </p>
+    </div>
+  </section>
+
+  <section class="section" id="skills">
+    <div class="section-head">
+      <span class="section-index">02</span>
+      <h2>Skills</h2>
+    </div>
+    <div class="section-body">
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h3>Languages</h3>
+          <ul>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>HTML &amp; CSS</li>
+            <li>SQL</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>Frontend</h3>
+          <ul>
+            <li>Responsive UI</li>
+            <li>Vanilla JS &amp; DOM</li>
+            <li>Animation &amp; motion</li>
+            <li>Cross-browser layout</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>Backend</h3>
+          <ul>
+            <li>Node.js</li>
+            <li>SQLite &amp; MongoDB</li>
+            <li>REST APIs</li>
+            <li>Auth &amp; sessions (OTP, OAuth)</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>Tools &amp; platforms</h3>
+          <ul>
+            <li>Git &amp; GitHub</li>
+            <li>Render deployment</li>
+            <li>VS Code, SonarQube</li>
+            <li>Automation &amp; scripting</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="work">
+    <div class="section-head">
+      <span class="section-index">03</span>
+      <h2>Work</h2>
+    </div>
+    <div class="section-body">
+      <div class="work-list">
+
+        <article class="work-row">
+          <div class="work-num">01</div>
+          <div class="work-main">
+            <h3>eFootball Arena</h3>
+            <p>A competitive esports platform for paid friendlies, tournaments, and squad trading — with OTP-verified accounts, auto-detected player ratings, and an admin moderation queue.</p>
+            <div class="tags">
+              <span>JavaScript</span><span>Node.js</span><span>SQLite</span><span>OAuth</span>
+            </div>
+          </div>
+          <a href="#" class="work-link" aria-label="View eFootball Arena">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M7 17 17 7M7 7h10v10"/></svg>
+          </a>
+        </article>
+
+        <article class="work-row">
+          <div class="work-num">02</div>
+          <div class="work-main">
+            <h3>Nova Bites</h3>
+            <p>A restaurant and hotel website rebuilt from a template into a lean, focused site — stripped down to what visitors actually need to see.</p>
+            <div class="tags">
+              <span>HTML/CSS</span><span>Responsive design</span>
+            </div>
+          </div>
+          <a href="#" class="work-link" aria-label="View Nova Bites">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M7 17 17 7M7 7h10v10"/></svg>
+          </a>
+        </article>
+
+        <article class="work-row">
+          <div class="work-main">
+            <h3>MLTN-MD</h3>
+            <p>A WhatsApp automation bot with a full custom rebrand, deployed on Render with MongoDB-backed session persistence so it survives restarts and redeploys.</p>
+            <div class="tags">
+              <span>Node.js</span><span>Baileys</span><span>MongoDB</span><span>Render</span>
+            </div>
+          </div>
+          <div class="work-num">03</div>
+          <a href="#" class="work-link" aria-label="View MLTN-MD">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M7 17 17 7M7 7h10v10"/></svg>
+          </a>
+        </article>
+
+        <article class="work-row">
+          <div class="work-num">04</div>
+          <div class="work-main">
+            <h3>Master Admin Dashboard</h3>
+            <p>A central control panel linking every site I run — live status, usage, and management — in one black-and-white interface with color reserved strictly for status signals.</p>
+            <div class="tags">
+              <span>JavaScript</span><span>Dashboards</span><span>System design</span>
+            </div>
+          </div>
+          <a href="#" class="work-link" aria-label="View Master Admin Dashboard">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M7 17 17 7M7 7h10v10"/></svg>
+          </a>
+        </article>
+
+        <article class="work-row">
+          <div class="work-num">05</div>
+          <div class="work-main">
+            <h3>Browser Automation Dashboard</h3>
+            <p>A Gradio-based control panel for an AI browser agent — live browser view, task queue, and a memory vault that carries context across sessions.</p>
+            <div class="tags">
+              <span>Python</span><span>Playwright</span><span>Gradio</span><span>Gemini API</span>
+            </div>
+          </div>
+          <a href="#" class="work-link" aria-label="View Browser Automation Dashboard">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M7 17 17 7M7 7h10v10"/></svg>
+          </a>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-contact" id="contact">
+    <div class="section-head">
+      <span class="section-index">04</span>
+      <h2>Contact</h2>
+    </div>
+    <div class="section-body">
+      <p class="contact-lead">Open to full-stack roles and freelance work. The fastest way to reach me:</p>
+      <a href="mailto:hello@ephymawira.dev" class="contact-email">hello@ephymawira.dev</a>
+      <div class="contact-links">
+        <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="#" class="resume-link">Resume (PDF)</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>Designed &amp; built by Ephy Mawira.</p>
+  </footer>
+
+</main>
+
+<script src="js/script.js"></script>
+</body>
+</html>
